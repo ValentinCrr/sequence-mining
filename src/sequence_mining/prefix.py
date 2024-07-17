@@ -4,6 +4,9 @@ from typing import List, Set
 
 
 class Prefix:
+    """Prefix class to store a sequence of itemsets., ie sequence for each customer
+    ex: [[1, 2], [1, 3, 4], [5, 6]]
+    """
 
     def __init__(self, itemsets: List[List[int]] = None):
         self.itemsets: List[List[int]] = []
